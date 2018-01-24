@@ -20,9 +20,9 @@
       <p>
         <b>Question to 2.</b> I noticed many things change across different browsers (Chrome, Firefox, Internet Explorer). The font type, size of the fonts, padding and margin between elements as well as element designs such as the form box or form radio buttons.
         <br>
-        <b>Question to 3.</b> 
+        <b>Question to 3.</b> The original form does not focus on the field when 'Name' is clicked. Such feature is appreciated in a user experience perspective as it highlights a field for the users to fill in, guiding their behavior. I added the label for the fields so that the text triggers the appropriate field.
         <br>
-        <b>Question to 6.</b>   
+        <b>Question to 7.</b> The only message I received was a warning that 'date' input type is not supported in all browsers. 
       </p>
     </div>
 
@@ -34,7 +34,7 @@
     </div>
     
     <div>
-      <form style="border:2px solid black;">
+      <form style="border:2px solid gray;margin:10px;padding:20px;">
         <label for="name">
           Name:
           <input type="text" name="name" id="name">
@@ -43,22 +43,21 @@
         <label for="dob">DOB:</label>
         <input type="date" name="DOB" id="dob">
         <br> 
-        <label for="snack">Please enter your choice of snack:
-          <br>
-          <input type="radio" name="snack" value="pizza" id="snack"> Pizza
-          <br>
-          <input type="radio" name="snack" value="donut" id="snack"> Donut
-          <br>
-          <input type="radio" name="snack" value="vegan" id="snack"> Vegan Stuff
-        </label>
+        Please enter your choice of snack:
+        <br>
+        <input type="radio" name="snack" value="pizza"> Pizza
+        <br>
+        <input type="radio" name="snack" value="donut"> Donut
+        <br>
+        <input type="radio" name="snack" value="vegan"> Vegan Stuff
         <br> 
         Please enter your choice of drink:
         <br>
-        <input type="radio" name="snack" value="coffee"> Coffee
+        <input type="radio" name="drink" value="coffee"> Coffee
         <br>
-        <input type="radio" name="snack" value="tea"> Tea
+        <input type="radio" name="drink" value="tea"> Tea
         <br>
-        <input type="radio" name="snack" value="water"> Water
+        <input type="radio" name="drink" value="water"> Water
         <br>
         <button>SUBMIT</button>
       </form>
