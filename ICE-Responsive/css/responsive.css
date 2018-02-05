@@ -1,0 +1,22 @@
+@media only screen and (min-width: 650px) {
+  body { 
+    background: yellow; 
+  }
+
+  .top-nav ul li {
+    display: inline-block;
+    border: none;
+  }  
+
+  ul {
+    border-top: #F54320 1px solid;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  body { 
+    background: green; 
+  }
+  
+  
+}
