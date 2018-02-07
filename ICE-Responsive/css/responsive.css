@@ -1,7 +1,7 @@
 @media only screen and (min-width: 650px){
-  body { 
+  /* body { 
     background: yellow; 
-  }
+  } */
 
   .top-nav ul li {
     display: inline-block;
@@ -17,12 +17,17 @@
   .top-nav {
     text-align: center;
   }
+
+  .mid-screen {
+    width: 47%;
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
-  body { 
+  /* body { 
     background: green; 
-  }
+  } */
 
   .logo {
     display: inline-block;
@@ -33,5 +38,10 @@
     border: none;
     float: right;
     line-height: 55px;
+  }
+
+  .large-screen {
+    width: 47%;
+    display: inline-block;
   }
 }
