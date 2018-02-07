@@ -1,4 +1,4 @@
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 650px){
   body { 
     background: yellow; 
   }
@@ -6,10 +6,16 @@
   .top-nav ul li {
     display: inline-block;
     border: none;
+    width: 150px;
   }  
 
-  ul {
+  .top-nav ul {
+    display: inline-block;
     border-top: #F54320 1px solid;
+  }
+
+  .top-nav {
+    text-align: center;
   }
 }
 
@@ -17,6 +23,15 @@
   body { 
     background: green; 
   }
-  
-  
+
+  .logo {
+    display: inline-block;
+    float: left;
+  }
+
+  .top-nav ul {
+    border: none;
+    float: right;
+    line-height: 55px;
+  }
 }
