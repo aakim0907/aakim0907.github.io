@@ -16,16 +16,22 @@ When you test your form at the moment, you'll notice that you can click on the c
   <head>
     <title>JavaScript Challenges</title>
     <style>
-    /*    YOUR CODE HERE - check Step 1*/ 
+      #emailfield {
+        display: none;
+      }
     </style>
     
     <script type="text/javascript">
-	function toggleEmail(){
-		/*    YOUR CODE HERE - check Step 1*/ 
-
-	} 
+      function toggleEmail(){
+        if (document.getElementById("subscribe").checked === true) {
+          document.getElementById("emailfield").style.display = "block";
+        } else {
+          document.getElementById("emailfield").style.display = "none";
+        }
+      } 
     </script>
   </head>
+
   <body>
     <h1>Challenge One</h1>
     <form action="challenge2.html">
