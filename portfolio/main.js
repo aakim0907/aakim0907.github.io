@@ -10,7 +10,7 @@ $(document).ready(function () {
 
   $(function () {
     $(window).scroll(function () {
-      if ($(this).scrollTop() > 750) {
+      if ($(this).scrollTop() > 500) {
         $(".navbar").fadeIn(400);
       } else {
         $(".navbar").fadeOut(400);
