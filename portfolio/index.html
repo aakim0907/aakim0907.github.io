@@ -6,6 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" type="image/png" href="./img/favicon.ico" />
 
   <!-- Bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -14,7 +15,7 @@
   <!-- Custom css -->
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/hexagon.css">
+  <link rel="stylesheet" href="./css/mobile.css">
 
   <!-- Import Devicon, Fontawesome, GoogleFont -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -26,7 +27,7 @@
 <body>
   <div class="container">
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+    <!-- <nav class="navbar navbar-expand-sm navbar-light sticky-top">
       <a class="navbar-brand" href="#">YOUNG EUN KIM</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -39,14 +40,14 @@
             <a class="nav-link active" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#project">Project</a>
+            <a class="nav-link" href="#projects">Project</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
     <!-- Main heading -->
     <div id="home">
@@ -55,151 +56,186 @@
         <h2 style="font-family: 'Amatic SC'">Software Developer</h2>
       </div>
       <img src="./img/logo.png" alt="Logo image">
+      <a href="#projects">
+        <span>More About Me</span>
+        <i class="fas fa-arrow-alt-circle-down"></i>
+      </a>
     </div>
 
     <!-- Projects -->
-    <h3 class="section-header" id="project">Projects</h3>
-
-    <div class="row d-flex justify-content-between flex-wrap project-list">
-      <div class="project">
-        <img src="./img/rolover.png" alt="Project Rolover" width="270" height="270">
-        <div class="hover">
-          <span class="hover-title">Rolover</span>
-          <hr>
-          <span class="hover-sub">Ruby on Rails, React.js/Redux</span>
+    <div class="section" id="projects">
+      <h3 class="section-header">Projects</h3>
+      <hr class="section-hr">
+      <div class="project-list">
+        <div class="project">
+          <img src="./img/rolover.png" alt="Project Rolover" width="270" height="270">
+          <div class="hover">
+            <span class="hover-title">Rolover</span>
+            <hr>
+            <span class="hover-sub">Ruby on Rails, React.js/Redux</span>
+          </div>
         </div>
-      </div>
-      <div class="project">
-        <img src="./img/scentsd3.png" alt="Project Scentsd3" width="270" height="270">
-        <div class="hover">
-          <span class="hover-title">Scents of Serge Lutens</span>
-          <hr>
-          <span class="hover-sub">D3.js</span>
+        <div class="project">
+          <img src="./img/scentsd3.png" alt="Project Scentsd3" width="270" height="270">
+          <div class="hover">
+            <span class="hover-title">Scents of Serge Lutens</span>
+            <hr>
+            <span class="hover-sub">D3.js</span>
+          </div>
         </div>
-      </div>
-      <div class="project">
-        <img src="./img/univentures.png" alt="Project Univentures" width="270" height="270">
-        <div class="hover">
-          <span class="hover-title">Univentures</span>
-          <hr>
-          <span class="hover-sub">Ruby on Rails, React.js/Redux</span>
+        <div class="project">
+          <img src="./img/univentures.png" alt="Project Univentures" width="270" height="270">
+          <div class="hover">
+            <span class="hover-title">Univentures</span>
+            <hr>
+            <span class="hover-sub">Ruby on Rails, React.js/Redux</span>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- About me -->
-    <h3 class="section-header" id="about">About Me</h3>
-    <div class="row">
-      <div class="col-12 col-md-5">
-        <img src="./img/me2.png" alt="profile image" class="profile-img">
-      </div>
-      <div class="col-12 col-md-7" style="margin:auto">
-        <h4>Hi, I'm Young Eun</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consequuntur minima, officiis dicta quisquam perferendis
-          mollitia cupiditate atque voluptatum autem assumenda unde pariatur deserunt et nihil modi quod nisi vero.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="hexagon">
-        <span></span>
-      </div>
-      <div class="hexagon">
-        <span></span>
-      </div>
-      <div class="hexagon">
-        <span></span>
-      </div>
-      <div class="hexagon">
-        <span></span>
-      </div>
-      <div class="hexagon">
-        <span></span>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <h4>Skills</h4>
-        <div style="display:flex">
-          <ul>
-            <li>
-              Javascript
-              <i class="devicon-javascript-plain colored"></i>
-            </li>
-            <li>
-              Bootstrap
-              <i class="devicon-bootstrap-plain colored"></i>
-            </li>
-            <li>
-              CSS3
-              <i class="devicon-css3-plain colored"></i>
-            </li>
-            <li>
-              D3.js
-              <i class="devicon-d3js-plain colored"></i>
-            </li>
-            <li>
-              Github
-              <i class="devicon-github-plain colored"></i>
-            </li>
-            <li>
-              HTML5
-              <i class="devicon-html5-plain colored"></i>
-            </li>
-            <li>
-              Linux
-              <i class="devicon-linux-plain colored"></i>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              PHP
-              <i class="devicon-php-plain colored"></i>
-            </li>
-            <li>
-              Postgresql
-              <i class="devicon-postgresql-plain colored"></i>
-            </li>
-            <li>
-              Python
-              <i class="devicon-python-plain colored"></i>
-            </li>
-            <li>
-              Rails
-              <i class="devicon-rails-plain colored"></i>
-            </li>
-            <li>
-              React.js
-              <i class="devicon-react-original colored"></i>
-            </li>
-            <li>
-              Ruby
-              <i class="devicon-ruby-plain colored"></i>
-            </li>
-          </ul>
+    <div class="section" id="about">
+      <h3 class="section-header">About Me</h3>
+      <hr class="section-hr">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img src="./img/me2.png" alt="profile image" class="profile-img">
+        </div>
+        <div class="col-12 col-md-6 profile-text">
+          <p>Hi, I'm Young Eun</p>
+          <p>I am a software developer passionate about improving user experience through technology. I love the process of understanding users' needs and devising a solution to their problem.</p>
+          <p>Feel free to reach me out at <b>aakim0907@gmail.com</b></p>
+          <a href="./docs/YoungEunKim.pdf" target="_blank">
+            <button class="btn btn-outline-primary">View Resume</button>
+          </a>
         </div>
       </div>
-      <div class="col-sm-12 col-md-6">
-        <h4>Experiences</h4>
+    </div>
+
+    <div class="strengthsfinder">
+      <h4 style="width:100%">My strength themes</h4>
+      <span class="strength-src">Gallup StrengthsFinder 2.0 results</span>
+      <div class="strength">
+        <i class="fas fa-users"></i>
+        <span class="strength-title">Harmony</span>
+        <p>Look for consensus. Seek areas of agreement.</p>
+      </div>
+      <div class="strength">
+        <i class="fas fa-chart-line"></i>
+        <span class="strength-title">Maximizer</span>
+        <p>Stimulate personal and group excellence</p>
+      </div>
+      <div class="strength">
+        <i class="fas fa-people-carry"></i>
+        <span class="strength-title">Consistency</span>
+        <p>Treat everyone with consistency by setting clear rules and adhere to them. </p>
+      </div>
+      <div class="strength">
+        <i class="fas fa-chart-pie"></i>
+        <span class="strength-title">Analytical</span>
+        <p>Search for reasons and causes. Think about all factors that might affect a situation.</p>
+      </div>
+      <div class="strength">
+        <i class="fas fa-tasks"></i>
+        <span class="strength-title">Discipline</span>
+        <p>enjoy routine and structure</p>
       </div>
     </div>
 
-    <div class="row">
-      <!-- contact -->
+    <div class="section" id="about-plus">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 sm-section">
+          <h3 class="section-header">Skills</h3>
+          <hr class="sm-hr">
+          <div class="skills">
+            <ul>
+              <li>
+                React.js
+                <i class="devicon-react-original colored"></i>
+              </li>
+              <li>
+                Rails
+                <i class="devicon-rails-plain colored"></i>
+              </li>
+              <li>
+                Javascript
+                <i class="devicon-javascript-plain colored"></i>
+              </li>
+              <li>
+                Ruby
+                <i class="devicon-ruby-plain colored"></i>
+              </li>
+              <li>
+                Python
+                <i class="devicon-python-plain colored"></i>
+              </li>
+              <li>
+                D3.js
+                <i class="devicon-d3js-plain colored"></i>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                HTML5
+                <i class="devicon-html5-plain colored"></i>
+              </li>
+              <li>
+                CSS3
+                <i class="devicon-css3-plain colored"></i>
+              </li>
+              <li>
+                Postgresql
+                <i class="devicon-postgresql-plain colored"></i>
+              </li>
+              <li>
+                PHP
+                <i class="devicon-php-plain colored"></i>
+              </li>
+              <li>
+                Git
+                <i class="devicon-git-plain colored"></i>
+              </li>
+              <li>
+                Linux
+                <i class="devicon-linux-plain colored"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 sm-section">
+          <h3 class="section-header">Education</h3>
+          <hr class="sm-hr">
+          <div class="education">
+            <p class="ed-1">University of Michigan School of Information</p>
+            <p class="ed-2">Ann Arbor, MI | April 2018</p>
+            <p class="ed-3">Master of Science in Information</p>
+          </div>
+          <div class="education">
+            <p class="ed-1">App Academy</p>
+            <p class="ed-2">San Francisco, CA | August 2017</p>
+            <p class="ed-3">1000+ hours software development course</p>
+          </div>
+          <div class="education">
+            <p class="ed-1">Ewha Womans University</p>
+            <p class="ed-2">Seoul, Republic of Korea</p>
+            <p class="ed-3">Bachelor of Library and Information Science</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->
     <footer>
-      <span>&copy; 2018 Young Eun Kim</span>
       <div>
-        <a href="https://www.linkedin.com/in/young-eun-kim/">
-          <i class="fab fa-linkedin contact-icon"></i>
-        </a>
         <a href="https://github.com/aakim0907">
           <i class="fab fa-github contact-icon"></i>
         </a>
+        <a href="https://www.linkedin.com/in/young-eun-kim/">
+          <i class="fab fa-linkedin contact-icon"></i>
+        </a>
       </div>
+      <span style="font-size:15px">&copy;2018 Young Eun Kim</span>
     </footer>
 
   </div>

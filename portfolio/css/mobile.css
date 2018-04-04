@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) { 
+  .main-header {
+    text-align: center;
+  }
+
+  .project-list {
+    justify-content: center;
+  }
+
+  .profile-text {
+    text-align: center;
+  }
+
+  .strengthsfinder {
+    display: none;
+  }
+
+  .sm-section {
+    margin-bottom: 70px;
+  }
+
+  #about-plus {
+    padding-top: 0;
+  }
+}
