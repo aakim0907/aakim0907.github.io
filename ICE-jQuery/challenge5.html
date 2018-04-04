@@ -39,6 +39,7 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function () {
+      // on click
       $(".preview").on('mouseover', function () {
         $("#image").text($(this).attr("alt"));
         $("#image").css('background-image', 'url("' + $(this).attr("src") + '")');
@@ -47,6 +48,14 @@
       $(".preview").on('mouseleave', function () {
         $("#image").text("Hover over an image below");
         $("#image").css('background-image', '');
+      })
+
+      // on tab
+      $(".preview").bind({
+        focus : function() {
+          $("#image").text($(this).attr("alt"));
+          $("#image").css('background-image', 'url("' + $(this).attr("src") + '")');
+        }
       })
     })
 	</script>
@@ -62,11 +71,11 @@
     alt = "Styling with a Bandana" 
     src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg";>
 
-  <img class = "preview" tabindex = "1"
+  <img class = "preview" tabindex = "2"
     alt = "With My Boy" 
     src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG";>
 
-  <img class = "preview" tabindex = "1" 
+  <img class = "preview" tabindex = "3" 
     alt = "Young Puppy"
     src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg";> 
 </body>
