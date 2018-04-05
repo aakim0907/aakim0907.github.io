@@ -21,14 +21,16 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
     crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Arsenal|Amatic+SC|Josefin+Slab|Belleza|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arsenal|Amatic+SC|Josefin+Slab|Belleza|Roboto:300|Playfair+Display" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <div class="container">
     <!-- Nav bar -->
-    <!-- <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-      <a class="navbar-brand" href="#">YOUNG EUN KIM</a>
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/sm-logo.png" alt="Small logo" height=25>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,20 +49,19 @@
           </li>
         </ul>
       </div>
-    </nav> -->
+    </nav>
 
-    <!-- Main heading -->
-    <div id="home">
-      <div class="main-header">
+    <!-- Main header -->
+    <header id="home">
+      <div class="text-center mb-5">
         <h1 style="font-family: 'Amatic SC', cursive;font-size:70px;">Young Eun Kim</h1>
         <h2 style="font-family: 'Amatic SC'">Software Developer</h2>
       </div>
       <img src="./img/logo.png" alt="Logo image">
       <a href="#projects">
-        <span>More About Me</span>
-        <i class="fas fa-arrow-alt-circle-down"></i>
+        <i class="fas fa-arrow-down"></i>
       </a>
-    </div>
+    </header>
 
     <!-- Projects -->
     <div class="section" id="projects">
@@ -68,29 +69,35 @@
       <hr class="section-hr">
       <div class="project-list">
         <div class="project">
-          <img src="./img/rolover.png" alt="Project Rolover" width="270" height="270">
-          <div class="hover">
-            <span class="hover-title">Rolover</span>
-            <hr>
-            <span class="hover-sub">Ruby on Rails, React.js/Redux</span>
-          </div>
+          <a href="./rolover.html">
+            <img src="./img/rolover.png" alt="Project Rolover" width="270" height="270">
+            <div class="hover">
+              <span class="hover-title">Rolover</span>
+              <hr>
+              <span class="hover-sub">Ruby on Rails, React.js/Redux</span>
+            </div>
+          </a>
         </div>
         <div class="project">
-          <img src="./img/scentsd3.png" alt="Project Scentsd3" width="270" height="270">
-          <div class="hover">
-            <span class="hover-title">Scents of Serge Lutens</span>
-            <hr>
-            <span class="hover-sub">D3.js</span>
-          </div>
+          <a href="./scentsd3.html">
+            <img src="./img/scentsd3.png" alt="Project Scentsd3" width="270" height="270">
+            <div class="hover">
+              <span class="hover-title">Scents of Serge Lutens</span>
+              <hr>
+              <span class="hover-sub">D3.js</span>
+            </div>
+          </a>
         </div>
         <div class="project">
-          <img src="./img/univentures.png" alt="Project Univentures" width="270" height="270">
-          <div class="hover">
-            <span class="hover-title">Univentures</span>
-            <hr>
-            <span class="hover-sub">Ruby on Rails, React.js/Redux</span>
+          <a href="./univentures.html">
+            <img src="./img/univentures.png" alt="Project Univentures" width="270" height="270">
+            <div class="hover">
+              <span class="hover-title">Univentures</span>
+              <hr>
+              <span class="hover-sub">Ruby on Rails, React.js/Redux</span>
+            </div>
           </div>
-        </div>
+          </a>
       </div>
     </div>
 
@@ -100,9 +107,9 @@
       <hr class="section-hr">
       <div class="row">
         <div class="col-12 col-md-6">
-          <img src="./img/me2.png" alt="profile image" class="profile-img">
+          <img src="./img/me1.png" alt="profile image" class="profile-img">
         </div>
-        <div class="col-12 col-md-6 profile-text">
+        <div class="col-12 col-md-6 m-auto mb-center">
           <p>Hi, I'm Young Eun</p>
           <p>I am a software developer passionate about improving user experience through technology. I love the process of understanding users' needs and devising a solution to their problem.</p>
           <p>Feel free to reach me out at <b>aakim0907@gmail.com</b></p>
@@ -114,7 +121,7 @@
     </div>
 
     <div class="strengthsfinder">
-      <h4 style="width:100%">My strength themes</h4>
+      <h4 class="w-100">My strength themes</h4>
       <span class="strength-src">Gallup StrengthsFinder 2.0 results</span>
       <div class="strength">
         <i class="fas fa-users"></i>
@@ -145,7 +152,7 @@
 
     <div class="section" id="about-plus">
       <div class="row">
-        <div class="col-sm-12 col-md-6 sm-section">
+        <div class="col-sm-12 col-md-6">
           <h3 class="section-header">Skills</h3>
           <hr class="sm-hr">
           <div class="skills">
@@ -171,6 +178,10 @@
                 <i class="devicon-python-plain colored"></i>
               </li>
               <li>
+                Node.js
+                <i class="devicon-nodejs-plain colored"></i>
+              </li>
+              <li>
                 D3.js
                 <i class="devicon-d3js-plain colored"></i>
               </li>
@@ -185,7 +196,7 @@
                 <i class="devicon-css3-plain colored"></i>
               </li>
               <li>
-                Postgresql
+                PostgreSQL
                 <i class="devicon-postgresql-plain colored"></i>
               </li>
               <li>
@@ -203,20 +214,20 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 sm-section">
+        <div class="col-sm-12 col-md-6">
           <h3 class="section-header">Education</h3>
           <hr class="sm-hr">
-          <div class="education">
+          <div class="mt-4 text-center">
             <p class="ed-1">University of Michigan School of Information</p>
             <p class="ed-2">Ann Arbor, MI | April 2018</p>
             <p class="ed-3">Master of Science in Information</p>
           </div>
-          <div class="education">
+          <div class="mt-4 text-center">
             <p class="ed-1">App Academy</p>
             <p class="ed-2">San Francisco, CA | August 2017</p>
             <p class="ed-3">1000+ hours software development course</p>
           </div>
-          <div class="education">
+          <div class="mt-4 text-center">
             <p class="ed-1">Ewha Womans University</p>
             <p class="ed-2">Seoul, Republic of Korea</p>
             <p class="ed-3">Bachelor of Library and Information Science</p>
@@ -227,7 +238,7 @@
 
     <!-- Footer -->
     <footer>
-      <div>
+      <div class="mb-2">
         <a href="https://github.com/aakim0907">
           <i class="fab fa-github contact-icon"></i>
         </a>
