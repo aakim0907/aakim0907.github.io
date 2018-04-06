@@ -25,8 +25,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <div class="container">
-    <!-- Nav bar -->
+  <!-- Nav bar -->
     <nav class="navbar navbar-expand-sm navbar-light sticky-top">
       <a class="navbar-brand" href="./index.html">
         <img src="./img/sm-logo.png" alt="Small logo" height=25>
@@ -51,20 +50,22 @@
       </div>
     </nav>
 
-    <!-- Main header -->
-    <header id="home">
-      <div class="text-center mb-5">
-        <h1 style="font-family: 'Amatic SC', cursive;font-size:70px;">Young Eun Kim</h1>
-        <h2 style="font-family: 'Amatic SC'">Software Developer</h2>
-      </div>
-      <img src="./img/logo.png" alt="Personal logo">
-      <a href="#projects">
-        <i class="fas fa-arrow-down"></i>
-      </a>
-    </header>
+  <!-- Main header -->
+  <header id="home">
+    <div class="text-center mb-5">
+      <h1 style="font-family: 'Amatic SC', cursive;font-size:70px;">Young Eun Kim</h1>
+      <h2 style="font-family: 'Amatic SC'">Software Developer</h2>
+    </div>
+    <img src="./img/logo.png" alt="Personal logo">
+    <a href="#projects">
+      <i class="fas fa-arrow-down"></i>
+      <span class="sr-only">Link to projects</span>
+    </a>
+  </header>
 
-    <!-- Projects -->
-    <div class="section" id="projects">
+  <!-- Projects -->
+  <div class="section" id="projects">
+    <div class="container">
       <h3 class="section-header">Projects</h3>
       <hr class="section-hr">
       <div class="project-list">
@@ -99,39 +100,41 @@
           </a>
         </div>
         <div class="project">
-          <img src="./img/cali.png" alt="Image of Laguna Beach, CA" width="270" height="270">
+          <img src="./img/cali.png" alt="Laguna Beach, CA" width="270" height="270">
           <div class="hover">
             <span class="hover-title">Laguna Beach, CA</span>
             <hr>
-            <span class="hover-sub">Happy memories</span>
+            <span class="hover-sub">Happy memories<br>(This is not a link)</span>
           </div>
         </div>
         <div class="project">
-          <img src="./img/a2.png" alt="Image of Ann Arbor, MI" width="270" height="270">
+          <img src="./img/a2.png" alt="Ann Arbor, MI" width="270" height="270">
           <div class="hover">
             <span class="hover-title">Ann Arbor, MI</span>
             <hr>
-            <span class="hover-sub">It snows in April!</span>
+            <span class="hover-sub">It snows in April!<br>(This is not a link)</span>
           </div>
         </div>
         <div class="project">
-          <img src="./img/memory.png" alt="Image of friends" width="270" height="270">
+          <img src="./img/memory.png" alt="friends" width="270" height="270">
           <div class="hover">
             <span class="hover-title">With Friends</span>
             <hr>
-            <span class="hover-sub">Surprise party for YH</span>
+            <span class="hover-sub">Surprise party for YH<br>(This is not a link)</span>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- About me -->
-    <div class="section" id="about">
+  <!-- About me -->
+  <div class="section" id="about">
+    <div class="container">
       <h3 class="section-header">About Me</h3>
       <hr class="section-hr">
       <div class="row">
         <div class="col-12 col-md-6">
-          <img src="./img/me1.png" alt="Image of Young Eun Kim" class="profile-img">
+          <img src="./img/me1.png" alt="My profile image" class="profile-img">
         </div>
         <div class="col-12 col-md-6 m-auto mb-center">
           <p>I am a software developer passionate about improving user experience through technology. I love the process of studying users' needs and devising a solution to their problem.</p>
@@ -190,9 +193,11 @@
       </div>
       <span class="strength-src mt-3">Gallup StrengthsFinder 2.0 results</span>
     </div>
-    
-    <!-- sm-section -->
-    <div class="row sm-section">
+  </div>
+  
+  <!-- sm-section -->
+  <div class="row" id="sm-about">
+    <div class="container sm-section">
       <div class="col-sm-12 col-md-6">
         <h3 class="section-header">Skills</h3>
         <hr class="sm-hr">
@@ -270,26 +275,27 @@
         </div>
         <div class="mt-4 text-center">
           <p class="ed-1">Ewha Womans University</p>
-          <p class="ed-2">Seoul, Republic of Korea</p>
+          <p class="ed-2">Seoul, Republic of Korea | February 2016</p>
           <p class="ed-3">Bachelor of Library and Information Science</p>
         </div>
       </div>
     </div>
-
-    <!-- Footer -->
-    <footer>
-      <div class="mb-2">
-        <a href="https://github.com/aakim0907">
-          <i class="fab fa-github contact-icon"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/young-eun-kim/">
-          <i class="fab fa-linkedin contact-icon"></i>
-        </a>
-      </div>
-      <span style="font-size:15px">&copy;2018 Young Eun Kim</span>
-    </footer>
-
   </div>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <a href="https://github.com/aakim0907">
+        <i class="fab fa-github contact-icon"></i>
+        <span class="sr-only">Link to Github account</span>
+      </a>
+      <a href="https://www.linkedin.com/in/young-eun-kim/">
+        <i class="fab fa-linkedin contact-icon"></i>
+        <span class="sr-only">Link to Linkedin account</span>
+      </a>
+    </div>
+    <span style="font-size:15px">&copy;2018 Young Eun Kim</span>
+  </footer>
 </body>
 
 <!-- jQuery, Popper.js, Bootstrap js -->

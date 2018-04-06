@@ -5,7 +5,7 @@
 
 .row {
   width: 100%;
-  margin: 30px 0;
+  margin: 35px 0 0 0;
 }
 
 .section {
@@ -17,6 +17,7 @@
 
 .sm-section {
   padding: 70px 0 50px 0;
+  display: flex;
 }
 
 .section-header {
@@ -37,6 +38,17 @@
   display: block;
   margin: 10px auto;
   border-bottom: solid 2px #9b4447;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
 }
 
 /* nav bar */
@@ -72,7 +84,7 @@
 }
 
 #home i {
-  margin-top: 50px;
+  margin-top: 80px;
   color: gray;
   animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
 }
@@ -83,6 +95,10 @@
 }
 
 /* projects */
+#projects {
+  background: rgba(155,68,71,0.1);
+}
+
 .project-list {
   width: 100%;
   margin-top: 50px;
@@ -100,7 +116,7 @@
   width: 270px;
   height: 270px;
   background: rgba(255,255,255,0.8);
-  border: 1px solid #9b4447;
+  border: 2px solid #9b4447;
   cursor: pointer;
   position: absolute;
   left: 0;
@@ -138,10 +154,6 @@
 }
 
 /* about */
-#about {
-  background: rgba(155,68,71,0.1);
-}
-
 .profile-img {
   height: 250px;
   display: block;
@@ -168,14 +180,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 90%;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .strength {
   background: #9b4447;
   border-radius: 50%;
-  border: 5px solid #9b4447;
+  border: 3px solid #9b4447;
   transition-property: background, border-radius;
   transition-duration: 0.4s, 0.4s;
   transition-timing-function: ease-in-out;
@@ -188,7 +199,7 @@
 }
 
 .strength:hover {
-  background: rgba(155,68,71,0.2);
+  background: rgba(155,68,71,0.1);
   border-radius: 0;
 } 
 
@@ -228,6 +239,10 @@
 }
 
 /* sm-section */
+#sm-about {
+  background: rgba(155,68,71,0.1);
+}
+
 .skills {
   display: flex;
   justify-content: center;
