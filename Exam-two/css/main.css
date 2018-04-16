@@ -2,20 +2,24 @@ body {
   background-image: url("../images/sun-pattern.png");
 }
 
-.container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.container img {
-  width: 50%;
+img {
   border: blue 5px solid;
   padding: 5%;
+  width: 100%;
+}
+
+#col-one {
+  padding-right: 0;
+}
+
+#col-two {
+  padding-left: 0;
+}
+
+.center {
+  right: 25%;
 }
 
 button {
-  margin: 20px;
-  width: 100px;
-  height: 40px;
+  margin: 15px;
 }
