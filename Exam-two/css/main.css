@@ -1,0 +1,21 @@
+body {
+  background-image: url("../images/sun-pattern.png");
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.container img {
+  width: 50%;
+  border: blue 5px solid;
+  padding: 5%;
+}
+
+button {
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+}

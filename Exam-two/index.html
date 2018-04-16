@@ -3,13 +3,33 @@
 <head>
   <title>Young Eun Kim - Exam Two</title>
   <meta charset="utf-8">
+
+  <!-- Import jQuery -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+  <!-- Import stylesheet -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- Custom script -->
+  <script>
+    function hideImage() {
+      $("#colleen").hide();
+    } 
+    function showImage() {
+      $("#colleen").show();
+    } 
+  </script>
 </head>
 
 <body>
   <h1>Young Eun Kim</h1>
-  <img src="./images/examPic.JPG" alt="Colleen">
-  <img src="./images/UMSI-logo.jpg" alt="UMSI logo">
+  <div class="container">
+    <img src="./images/examPic.JPG" alt="Colleen and friends" id="colleen">
+    <img src="./images/UMSI-logo.jpg" alt="UMSI logo">
+  </div>
 
+  <button onclick="hideImage()">Hide Image</button>
+  <button onclick="showImage()">Show Image</button>
 </body>
 
 </html>
