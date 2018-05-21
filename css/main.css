@@ -5,19 +5,19 @@
 
 .row {
   width: 100%;
-  margin: 35px 0 0 0;
 }
 
 .section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 70px 0;
+  padding: 90px 0;
 }
 
 .sm-section {
   padding: 70px 0 50px 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .section-header {
@@ -31,6 +31,7 @@
   display: block;
   margin: 5px auto;
   border-bottom: solid 2px #9b4447;
+  margin-bottom: 50px;
 }
 
 .sm-hr {
@@ -101,7 +102,6 @@
 
 .project-list {
   width: 100%;
-  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -161,8 +161,14 @@
   border-radius: 10px;
 }
 
-.profile-text {
-  margin: auto;
+#my-email {
+  font-weight: bold;
+  color: #9b4447;
+}
+
+#my-email:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
 }
 
 .resume-btn {
@@ -221,10 +227,11 @@
 }
 
 .s-before span {
-  font-family: 'Belleza', sans-serif;
+  font-family: 'Arsenal', sans-serif;
   color: #F7EBD7;
   display: block;
   font-size: 20px;
+  margin-top: 7px;
 }
 
 .strength p {
