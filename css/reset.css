@@ -13,6 +13,10 @@ p {
   margin: 7px 0;
 }
 
+ol {
+  margin: 0;
+}
+
 ul {
   list-style: none;
 }
