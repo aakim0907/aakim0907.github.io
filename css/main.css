@@ -163,6 +163,18 @@
   border-radius: 10px;
 }
 
+.fun-fact-ul {
+  /* list-style: circle; */
+  padding-left: 7px;
+}
+
+.fun-fact-ul li::before {
+  content: "◦"; 
+  color: #9b4447;
+  display: inline-block; 
+  width: 15px;
+}
+
 #my-email {
   font-weight: bold;
   color: #9b4447;
