@@ -98,10 +98,6 @@
 }
 
 /* projects */
-#projects {
-  background: rgba(155,68,71,0.1);
-}
-
 .project-list {
   width: 100%;
   display: flex;
@@ -156,8 +152,12 @@
 }
 
 /* about */
+#about {
+  background: rgba(155,68,71,0.1);
+}
+
 .profile-img {
-  height: 250px;
+  height: 275px;
   display: block;
   margin: 0 auto;
   border-radius: 10px;
@@ -200,7 +200,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 35px;
+  margin: 50px auto 0 auto;
+  width: 95%;
 }
 
 .strength {
@@ -210,8 +211,8 @@
   transition-property: background, border-radius;
   transition-duration: 0.4s, 0.4s;
   transition-timing-function: ease-in-out;
-  height: 150px;
-  width: 150px;
+  height: 145px;
+  width: 145px;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -244,12 +245,12 @@
   font-family: 'Arsenal', sans-serif;
   color: #F7EBD7;
   display: block;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 7px;
 }
 
 .strength p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -310,7 +311,7 @@ footer {
   color: #9b4447;
 }
 
-/* PROJECT PAGES */
+/* Projects */
 .project-header img {
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -318,23 +319,23 @@ footer {
 
 .project-title {
   border-bottom: 1px solid lightgray;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .project-brief {
   background: rgba(155,68,71,0.1);
-  padding: 30px 0px;
+  padding: 35px 0px;
   text-align: center;
   margin-bottom: 30px;
 }
 
 .project-brief .mb-center ul {
-  line-height: 35px; 
+  line-height: 40px; 
 }
 
 .project-detail {
-  background: #F5F5F5;
-  padding: 30px 0;
+  background: #e8e8e8;
+  padding: 50px 0;
 }
 
 .project-content h4 {
